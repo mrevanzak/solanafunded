@@ -56,7 +56,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className='bg-background-secondary text-white'>
+      <body className='bg-background-secondary relative text-white'>
         <Header />
         {children}
       </body>
