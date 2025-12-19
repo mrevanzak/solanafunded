@@ -18,6 +18,11 @@
   --color-primary-900: oklch(0.31 0.12 213.79);
   --color-primary-950: oklch(0.18 0.07 213.79);
 
+  --color-secondary-700: hsla(220, 4%, 82%, 1);
+
+  --color-background-secondary: hsla(220, 18%, 9%, 1);
+  --color-border-secondary: hsla(220, 16%, 16%, 1);
+
   /* Dark color */
   --color-dark: #222222;
 
