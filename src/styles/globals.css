@@ -20,10 +20,17 @@
   --color-primary: hsla(220, 20%, 6%, 1);
 
   --color-brand: hsla(267, 100%, 75%, 1);
+  --color-brand-primary: hsla(267, 100%, 64%, 1);
+  --color-brand-500: hsla(267, 100%, 64%, 1);
 
   --color-secondary-700: hsla(220, 4%, 82%, 1);
 
   --color-tertiary-600: hsla(220, 4%, 60%, 1);
+
+  --color-green-500: hsla(155, 89%, 51%, 1);
+
+  --color-disabled-subtle: hsla(220, 18%, 9%, 1);
+  --color-disabled: hsla(220, 8%, 24%, 1);
 
   --color-background-secondary: hsla(220, 18%, 9%, 1);
   --color-border-secondary: hsla(220, 16%, 16%, 1);
@@ -36,6 +43,22 @@
   --animate-shimmer: shimmer 1.3s linear infinite;
 
   --breakpoint-xs: 26rem;
+}
+
+@theme inline {
+  --animate-shine: shine var(--duration) infinite linear;
+
+  @keyframes shine {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
 }
 
 /* Animation keyframes */
